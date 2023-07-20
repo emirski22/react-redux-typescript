@@ -4,7 +4,7 @@ import { Suspense } from 'react';
 export const App = () => {
      return (
         <div className={'app'}>
-            <Suspense fallback={'loading..'}>
+            <Suspense fallback={'loading.'}>
                 <AppRouter />
             </Suspense>
         </div>
